@@ -140,7 +140,7 @@ let playWave = document.getElementById("playWave");
 masterPlay.addEventListener("click", function () {
     let currentSong = music.currentSrc; //http://127.0.0.1:5500/Audios/3.mp3
     // console.log(music.currentSrc);
-    
+
     let p = currentSong.split("/Audios/")[1]; // 7.mp3
     let spiltedSongIndex = p.split(".mp3")[0];
     //console.log(p);
